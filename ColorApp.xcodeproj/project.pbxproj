@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		37E0BFF42CDF9F0D00071DB1 /* ColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0BFF32CDF9F0D00071DB1 /* ColorVC.swift */; };
+		37E0BFF62CDF9FD600071DB1 /* ColorDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0BFF52CDF9FD600071DB1 /* ColorDetailVC.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		37E0BFD32CDF976700071DB1 /* ColorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E0BFF32CDF9F0D00071DB1 /* ColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorVC.swift; sourceTree = "<group>"; };
+		37E0BFF52CDF9FD600071DB1 /* ColorDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +52,8 @@
 		37E0BFCA2CDF976700071DB1 = {
 			isa = PBXGroup;
 			children = (
+				37E0BFF52CDF9FD600071DB1 /* ColorDetailVC.swift */,
+				37E0BFF32CDF9F0D00071DB1 /* ColorVC.swift */,
 				37E0BFD52CDF976700071DB1 /* ColorApp */,
 				37E0BFD42CDF976700071DB1 /* Products */,
 			);
@@ -132,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E0BFF62CDF9FD600071DB1 /* ColorDetailVC.swift in Sources */,
+				37E0BFF42CDF9F0D00071DB1 /* ColorVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

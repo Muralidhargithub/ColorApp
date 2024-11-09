@@ -16,6 +16,9 @@ class ColorDetailVC: UIViewController {
     }
     
 
+    @IBAction func tempButtonTapped(_ sender: UIButton) {
+        
+    }
     /*
     // MARK: - Navigation
 
